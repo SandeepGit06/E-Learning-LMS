@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://e-learning-lms-1s7o.onrender.com",
     credentials:true
 }));
  
